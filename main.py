@@ -6,12 +6,13 @@ def kalkulator():
         print("2. Pengurangan (-)")
         print("3. Perkalian (*)")
         print("4. Pembagian (/)")
-        print("5. Keluar")
+        print("Jika mau keluar dari aplikasi tulis perintah dbawah ini: ")
+        print("stop")
 
         # Meminta user memilih operasi perhitungan
         pilihan = input("Masukkan bilangan operasi yang anda inginkan (1/2/3/4/5): ")
 
-        if pilihan == '5':
+        if pilihan == 'stop':
             print("Terima kasih telah menggunakan kalkulator.")
             break  # Keluar dari loop jika pengguna memilih keluar
 
